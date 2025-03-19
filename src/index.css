@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes petting {
+  0% { transform: translate(-50%, -20%) rotate(0deg); }
+  25% { transform: translate(-60%, 10%) rotate(-10deg); }
+  50% { transform: translate(-50%, 50%) rotate(0deg); }
+  75% { transform: translate(-40%, 10%) rotate(10deg); }
+  100% { transform: translate(-50%, 100%) rotate(0deg); }
+}
+
+
+.animate-petting {
+  animation: petting 0.5s ease-in-out;
+}
