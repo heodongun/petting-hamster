@@ -18,16 +18,16 @@ function App() {
 
   // 🌟 이미지 변경 로직
   const getHamsterImage = () => {
-    if (pets >= 1000) return "public/그만해달라는햄스터.jpeg"; // 400번 이상
-    if (pets >= 400) return "public/무서운햄스터.jpg"; // 400번 이상
-    if (pets >= 200) return "public/놀란햄스터.jpeg"; // 200번 이상
-    if (pets >= 100) return "public/사랑하는햄스터.jpeg"; // 100번 이상
-    if (pets >= 60) return "public/웃는햄스터1.jpeg"; // 50번 이상
-    if (pets >= 40) return "public/웃는햄스터3.jpg"; // 30번 이상
-    if (pets >= 30) return "public/웃는햄스터2.jpeg"; // 20번 이상
-    if (pets >= 20) return "public/즐거워하는햄스터.jpg"; // 20번 이상
-    if (pets >= 10) return "public/슬픈햄스터.jpeg"; // 10번 이상
-    return `public/우는햄스터.jpg`; // 기본 이미지
+    if (pets >= 1000) return "/그만해달라는햄스터.jpeg"; // 400번 이상
+    if (pets >= 400) return "/무서운햄스터.jpg"; // 400번 이상
+    if (pets >= 200) return "/놀란햄스터.jpeg"; // 200번 이상
+    if (pets >= 100) return "/사랑하는햄스터.jpeg"; // 100번 이상
+    if (pets >= 60) return "/웃는햄스터1.jpeg"; // 50번 이상
+    if (pets >= 40) return "/웃는햄스터3.jpg"; // 30번 이상
+    if (pets >= 30) return "/웃는햄스터2.jpeg"; // 20번 이상
+    if (pets >= 20) return "/즐거워하는햄스터.jpg"; // 20번 이상
+    if (pets >= 10) return "/슬픈햄스터.jpeg"; // 10번 이상
+    return `/우는햄스터.jpg`; // 기본 이미지
   };
 
   const getHamsterMessage = () => {
